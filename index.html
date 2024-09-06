@@ -298,23 +298,72 @@ nav ul li a:hover::after {
 
 
         
-        <section id="worked-with">
-            <h2 style="padding-left: 50px;">Worked with</h2>
-            <div class="company-logos">
-                <img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/min.jpg"  alt="Le Ministère des Technologies de la Communication et de l'Economie Numérique">
-                <img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/Logo-Progress-Engineeing.png" alt="Progress Engineering">
-                <img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/cnicni.png" alt="CNI">
-                <img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/stir.png" alt="STIR">
-				<img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/E-Houwiya.png" alt=" E-Houwiya ">
-				<img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/mpgs.png" alt="mpgs">
-				<img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/tuntrust.png" alt="tuntrust">
-				<img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/tnpost.png" alt="tnpost">
-
-				<img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/telecomtelecom.png" alt="TUNISIE TELECOM ">
-                <!-- <img src="elastic-logo.png" alt="Elastic">
-                <img src="stripe-logo.png" alt="Stripe"> -->
-            </div>
-        </section>
+		<section id="worked-with">
+			<h2>Worked with</h2>
+			<div class="company-logos">
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/min.jpg" alt="Le Ministère des Technologies de la Communication et de l'Economie Numérique"></div>
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/Logo-Progress-Engineeing.png" alt="Progress Engineering"></div>
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/cnicni.png" alt="CNI"></div>
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/stir.png" alt="STIR"></div>
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/E-Houwiya.png" alt="E-Houwiya"></div>
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/mpgs.png" alt="mpgs"></div>
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/tuntrust.png" alt="tuntrust"></div>
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/tnpost.png" alt="tnpost"></div>
+				<div class="logo-wrapper"><img src="https://moetezbf.github.io/Moetez-IT/wp-content/uploads/telecomtelecom.png" alt="TUNISIE TELECOM"></div>
+			</div>
+		</section>
+		
+		<style>
+			#worked-with {
+				padding: 2rem 0;
+				background-color: #f5f5f5;
+			}
+		
+			#worked-with h2 {
+				text-align: center;
+				margin-bottom: 2rem;
+				color: #333;
+			}
+		
+			.company-logos {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 2rem;
+				padding: 0 2rem;
+			}
+		
+			.logo-wrapper {
+				background-color: white;
+				border-radius: 8px;
+				padding: 1rem;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 150px;
+				height: 100px;
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
+			}
+		
+			.logo-wrapper:hover {
+				transform: translateY(-5px);
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+			}
+		
+			.logo-wrapper img {
+				max-width: 100%;
+				max-height: 100%;
+				object-fit: contain;
+			}
+		
+			@media (max-width: 768px) {
+				.logo-wrapper {
+					width: 120px;
+					height: 80px;
+				}
+			}
+		</style>
 
         <!-- Add more sections for Case Studies, Testimonials, Recent Work, etc. -->
 
